@@ -1,0 +1,77 @@
+/* Div main styles */
+.main{
+    background-color: springgreen;
+    border: 4px solid green;
+    padding: 16px;
+}
+
+/* Value for all containers*/
+.container{
+    padding: 8px;
+    gap: 8px;
+    display: flex;
+}
+
+/* Navbar styles*/
+.container-nav, .container-footer{
+    border: 4px solid steelblue;
+    background-color: skyblue;
+    padding: 16px;
+}
+
+.nav-item{
+    padding: 8px;
+    border: 4px solid salmon;
+    background-color: peachpuff;
+    height: 48px;
+    flex: 1;
+    display: flex;
+    gap: 3px;
+}
+
+.item-container{
+    padding: 4px;
+    border: 4px solid tomato;
+    background-color: sandybrown;
+    flex: 1;
+}
+
+/* Content styles */
+.container-main, .div-item{
+    padding: 16px 0px;
+}
+
+.item, .item-child{
+    border: 4px solid firebrick;   
+    background-color: moccasin;
+    flex: 1;
+}
+
+.item-child{
+    padding: 50px;
+}
+
+.item:last-child{
+    margin-top: 8px;
+}
+.div-item{ 
+    flex: 1;
+    padding: 0px;
+}
+
+/* Footer styles */
+.foot-item, .foot-dif{
+    padding: 16px;
+    flex: 1;
+}
+
+.foot-item{
+    border: 4px solid slateblue;
+    background-color: cornflowerblue;
+}
+
+.foot-dif{
+    display: flex;
+    gap: 8px;
+    padding: 0px;
+}
